@@ -3,10 +3,93 @@
     padding: 0;
 }
 
-.sidebar{
-    background-color: red;
+body{
+    background-color: rgb(1, 1, 44);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(28, 28, 72) ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+ color: rgb(145, 145, 194);
+ font-size: 1.04rem;
+}
+.left{
+    font-size: 1.5rem;
 }
 
-.main{
-    background-color: yellow;
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
 }
+.firstsection >div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+}
+.rightsection .me {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.purpel{
+color: rgb(115, 69, 159);
+}
+.text-grey{
+    color: grey;
+}
+
+#element{
+    color: rgb(115, 69, 159);;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.img-top{
+    width: 10px;
+    height: 
